@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    background-color: #474747;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+main {
+    flex: 1;
+}
+
+header{
+    margin:auto;
+}
+
+footer{
+    background: #000000;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p{
+    color:#fff;
+    font-size: 0.875rem;
+}
+
+.wrapper{
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 25%;
+}
+
+.page-title{
+    font-size: 5rem;
+    color:#fc547c;
+    font-weight:normal;
+    margin:2%;
+    margin-bottom: 5%;
+}

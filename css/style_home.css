@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+
+body{
+    background-color: #474747;
+}
+
+img{
+    max-width: 100%;
+}
+
+footer{
+    background: #000000;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p{
+    color:#fff;
+    font-size: 0.875rem;
+}
+
+
+.logo{
+    width: 25%;
+}
+
+.main-nav{
+    display: flex;
+    font-size: 1.25;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper{
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.Botton{
+    max-height: 40px;
+    min-width: 100px;
+}
+
+.game_explain{
+    color: white;
+    font-size: 1.125;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 70%;
+}
+
+.home-cotent{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.home-cotent h2{
+    text-align: center;
+    margin-top: 10%;
+    font-family:'Apex';
+}
+
+/* .home-cotent p{
+    font-size: 1.125;
+    margin: 10px 0 42px;
+    
+} */
+
+.page-title{
+    font-size: 5rem;
+    color:#fc547c;
+    font-weight:normal;
+}
+
+.explain{
+    vertical-align: middle;
+    color: #acfcbc;
+    /* text-align:center; */
+}
+
+.playing{
+    max-width: 60%;
+}
+
+.excontent{
+    margin-top: 5%;
+}
+
+.downloads{
+    text-align:center;
+}
+
+/* .explainbody{
+    display: flex;
+    justify-content: space-between;
+} */

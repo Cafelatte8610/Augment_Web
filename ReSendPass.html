@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Augment-RePass</title>
+    <meta name="description"
+        content="Augmentは音楽ゲームのように曲の譜面を表示し、リアルタイムでプレイ端末のマイクの音を解析することでユーザーが弾いてる音を認識し、譜面との正誤判定をすることで、演奏の正確度がフィードバックされ、楽譜に対する知識がなくても直感的に楽器を弾けるようになる音楽ゲームです。">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style_sign.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+</head>
+<script type="text/javascript" src="js/ncmb.min.js" charset="utf-8"></script>
+<body>
+    <header class="page-header">
+        <a href="index.html"><img class="logo" src="img/logo.png" alt="Augment_logo"></a>
+    </header>
+    <hr width="100%" color="#747474">
+    <main>
+        <div class="container">
+            <h5 style="text-align: center; color: white;margin-bottom: 3%;">アカウントのメールにパスワード変更メールを送信します。メール添付のURLからパスワードを再設定してください。</h2>
+        </div>
+        <div class="container">
+            <form>
+                <div class="form-group row">
+                    <label for="inputEmail" class="col-sm-2 col-form-label" style="color: white;">メールアドレス</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="メールアドレスを入力">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm">
+                        <button type="button" class="btn btn-primary" onclick="ResetPass();">パスワード再設定メールを送信する</button>
+                    </div>
+                    <div class="col-auto">
+                        <a href="./Login.html">Login</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <a href="https://twitter.com/Cafelatte_8610"><small>Creater:Cafelatte_8610</small></a>
+        </div>
+    </footer>
+    <script src="js/sign.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jQuery-3.5.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
