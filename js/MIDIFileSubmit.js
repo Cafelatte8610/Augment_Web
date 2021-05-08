@@ -1,4 +1,4 @@
-var ncmb = new NCMB("ea25a419458420ee0d676cf8a65f2bc887283023a901271b0e02742736d5fb55", "3a9acdb12b32dc76cc120c2cc0eb001e18130a6296c9775d80c23f4317bccf50");
+var ncmb = new NCMB("e09e4fa9b679b5012d99dbd4f7d2aadbc95ace16652a85e4fe24b4266c1ad580", "14b20edd2c1cbfad1650391f1c2dca2c5e2ba32f2f38ce6e8ab3a2c87325349f");
 var db = ncmb.DataStore("MusicData");
 var DataBase = new db();
 
